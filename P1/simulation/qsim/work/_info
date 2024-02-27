@@ -1,0 +1,168 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/anton/OneDrive/Documentos/UNAM/8/OyAC/Practicas/P1/simulation/qsim
+Ehard_block
+Z1 w1708054364
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
+Z8 dC:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P1/simulation/qsim
+Z9 8practica1.vho
+Z10 Fpractica1.vho
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+Z11 OV;C;10.5b;63
+32
+Z12 !s110 1708054365
+!i10b 1
+Z13 !s108 1708054365.000000
+Z14 !s90 -work|work|practica1.vho|
+Z15 !s107 practica1.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Epractica1
+R1
+R3
+R7
+R2
+Z18 DPx6 altera 11 dffeas_pack 0 22 :S1C`o89Vbe5bV6`:6CaB3
+R4
+R5
+R6
+Z19 DPx6 altera 28 altera_primitives_components 0 22 z?[99Tn<@QGNik3V1c6ah1
+R8
+R9
+R10
+l0
+L79
+VeennC;^>FB4@i]TG@k2VS0
+!s100 UPeiPMg_<5l_a_d[ce;Ql0
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R3
+R7
+R2
+R18
+R4
+R5
+R6
+R19
+DEx4 work 9 practica1 0 22 eennC;^>FB4@i]TG@k2VS0
+l221
+L99
+VgQizcm60>PGZnSFhDOkP@2
+!s100 dD6n6BV?1^9:3fNY32MIk0
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Epractica1_vhd_vec_tst
+R1
+R5
+R6
+R8
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+L31
+VdE>JmcT`;hL74m9cT>ZCG3
+!s100 ?gbBoHZ@S@NSaBlUM4>l<2
+R11
+32
+R12
+!i10b 1
+R13
+Z22 !s90 -work|work|Waveform.vwf.vht|
+Z23 !s107 Waveform.vwf.vht|
+!i113 1
+R16
+R17
+Apractica1_arch
+R5
+R6
+Z24 DEx4 work 21 practica1_vhd_vec_tst 0 22 dE>JmcT`;hL74m9cT>ZCG3
+l52
+L33
+Vbba=4hai3W;Xl[kTFmMC;0
+!s100 hgkJoaZzT3Tzn0TA_7hRC3
+R11
+32
+R12
+!i10b 1
+R13
+R22
+R23
+!i113 1
+R16
+R17
+vpractica1_vlg_vec_tst
+!s110 1707488492
+!i10b 1
+!s100 Ml8n3PzYkghRQJk3?M5]g1
+IB;Xo3b?E`?O7]zR1M<]iL0
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1707488491
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1707488492.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R16
+tCvgOpt 0

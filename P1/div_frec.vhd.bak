@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+entity div_frec is
+	port( reloj: in std_logic;
+	div_clk: out std_logic);
+end div_frec;
+
+architecture bhv of div_frec is
+begin
+	process(reloj)
+	variable cuenta: std_logic_vector (25 downto 0) := "00000000000000000000000000";
+	begin 
+		if rising_edge (reloj) then
+		

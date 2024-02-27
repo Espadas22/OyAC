@@ -1,0 +1,61 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Estados[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Estados[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Estados[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Entradas[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Entradas[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Entradas[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Entradas[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CLR",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
