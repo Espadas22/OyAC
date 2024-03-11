@@ -1,5 +1,5 @@
 Analysis & Synthesis report for practica4
-Fri Mar 01 09:05:23 2024
+Sun Mar 10 20:38:19 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -43,13 +43,13 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Mar 01 09:05:23 2024       ;
+; Analysis & Synthesis Status        ; Successful - Sun Mar 10 20:38:19 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; practica4                                   ;
 ; Top-level Entity Name              ; practica4                                   ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 62                                          ;
-;     Total combinational functions  ; 62                                          ;
+; Total logic elements               ; 61                                          ;
+;     Total combinational functions  ; 61                                          ;
 ;     Dedicated logic registers      ; 31                                          ;
 ; Total registers                    ; 31                                          ;
 ; Total pins                         ; 13                                          ;
@@ -161,8 +161,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
-;     Processors 3-4         ;   0.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -187,16 +186,16 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 62        ;
+; Estimated Total logic elements              ; 61        ;
 ;                                             ;           ;
-; Total combinational functions               ; 62        ;
+; Total combinational functions               ; 61        ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 24        ;
+;     -- 4 input functions                    ; 16        ;
 ;     -- 3 input functions                    ; 4         ;
-;     -- <=2 input functions                  ; 34        ;
+;     -- <=2 input functions                  ; 41        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 35        ;
+;     -- normal mode                          ; 34        ;
 ;     -- arithmetic mode                      ; 27        ;
 ;                                             ;           ;
 ; Total registers                             ; 31        ;
@@ -209,8 +208,8 @@ refer to the applicable agreement for further details.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; CLK~input ;
 ; Maximum fan-out                             ; 28        ;
-; Total fan-out                               ; 260       ;
-; Average fan-out                             ; 2.18      ;
+; Total fan-out                               ; 242       ;
+; Average fan-out                             ; 2.05      ;
 +---------------------------------------------+-----------+
 
 
@@ -219,8 +218,8 @@ refer to the applicable agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name       ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------+-------------+--------------+
-; |practica4                 ; 62 (0)              ; 31 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 13   ; 0            ; 0          ; |practica4                ; practica4   ; work         ;
-;    |div_frec:inst2|        ; 51 (51)             ; 28 (28)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |practica4|div_frec:inst2 ; div_frec    ; work         ;
+; |practica4                 ; 61 (0)              ; 31 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 13   ; 0            ; 0          ; |practica4                ; practica4   ; work         ;
+;    |div_frec:inst2|        ; 50 (50)             ; 28 (28)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |practica4|div_frec:inst2 ; div_frec    ; work         ;
 ;    |memory:inst4|          ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |practica4|memory:inst4   ; memory      ; work         ;
 ;    |mux2_3:inst7|          ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |practica4|mux2_3:inst7   ; mux2_3      ; work         ;
 ;    |mux2_4:inst8|          ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |practica4|mux2_4:inst8   ; mux2_4      ; work         ;
@@ -263,17 +262,17 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; cycloneiii_ff         ; 31                          ;
 ;     CLR               ; 3                           ;
 ;     plain             ; 28                          ;
-; cycloneiii_lcell_comb ; 62                          ;
+; cycloneiii_lcell_comb ; 61                          ;
 ;     arith             ; 27                          ;
 ;         2 data inputs ; 27                          ;
-;     normal            ; 35                          ;
+;     normal            ; 34                          ;
 ;         1 data inputs ; 1                           ;
-;         2 data inputs ; 6                           ;
+;         2 data inputs ; 13                          ;
 ;         3 data inputs ; 4                           ;
-;         4 data inputs ; 24                          ;
+;         4 data inputs ; 16                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 4.50                        ;
-; Average LUT depth     ; 3.55                        ;
+; Average LUT depth     ; 3.59                        ;
 +-----------------------+-----------------------------+
 
 
@@ -292,7 +291,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Fri Mar 01 09:05:15 2024
+    Info: Processing started: Sun Mar 10 20:38:10 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off practica4 -c practica4
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -332,7 +331,7 @@ Warning (10631): VHDL Process Statement warning at mux4.vhd(16): inferring latch
 Info (10041): Inferred latch for "O" at mux4.vhd(16) File: C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/mux4.vhd Line: 16
 Info (12128): Elaborating entity "divisor_datos" for hierarchy "divisor_datos:inst3"
 Info (12128): Elaborating entity "memory" for hierarchy "memory:inst4"
-Warning (10492): VHDL Process Statement warning at memory.vhd(29): signal "internal_mem" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/memory.vhd Line: 29
+Warning (10492): VHDL Process Statement warning at memory.vhd(28): signal "internal_mem" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/memory.vhd Line: 28
 Warning (10873): Using initial value X (don't care) for net "internal_mem[6..7]" at memory.vhd(14) File: C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/memory.vhd Line: 14
 Info (12128): Elaborating entity "mux2_4" for hierarchy "mux2_4:inst8"
 Warning (10631): VHDL Process Statement warning at mux2_4.vhd(13): inferring latch(es) for signal or variable "O", which holds its previous value in one or more paths through the process File: C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/mux2_4.vhd Line: 13
@@ -344,14 +343,14 @@ Warning (14026): LATCH primitive "mux4:inst6|O" is permanently enabled File: C:/
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 75 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 74 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 6 input pins
     Info (21059): Implemented 7 output pins
-    Info (21061): Implemented 62 logic cells
+    Info (21061): Implemented 61 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 4799 megabytes
-    Info: Processing ended: Fri Mar 01 09:05:24 2024
+    Info: Peak virtual memory: 4786 megabytes
+    Info: Processing ended: Sun Mar 10 20:38:19 2024
     Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:18
+    Info: Total CPU time (on all processors): 00:00:19
 
 

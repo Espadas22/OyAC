@@ -15,7 +15,6 @@ architecture bhv of memory is
 
 begin
 	
-	-- Entradas para estado 0
 	internal_mem(0) <= "00" & "010" & "001" & "0000" & "1000";
 	internal_mem(1) <= "01" & "100" & "011" & "1011" & "1111";
 	internal_mem(2) <= "00" & "011" & "011" & "0111" & "0111";

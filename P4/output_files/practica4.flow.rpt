@@ -1,5 +1,5 @@
 Flow report for practica4
-Fri Mar 01 09:05:36 2024
+Sun Mar 10 21:24:03 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,15 +40,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Mar 01 09:05:33 2024       ;
+; Flow Status                        ; Successful - Sun Mar 10 21:24:03 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; practica4                                   ;
 ; Top-level Entity Name              ; practica4                                   ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C7G                              ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 63 / 49,760 ( < 1 % )                       ;
-;     Total combinational functions  ; 63 / 49,760 ( < 1 % )                       ;
+; Total logic elements               ; 62 / 49,760 ( < 1 % )                       ;
+;     Total combinational functions  ; 62 / 49,760 ( < 1 % )                       ;
 ;     Dedicated logic registers      ; 31 / 49,760 ( < 1 % )                       ;
 ; Total registers                    ; 31                                          ;
 ; Total pins                         ; 13 / 360 ( 4 % )                            ;
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/01/2024 09:05:15 ;
+; Start date & time ; 03/10/2024 20:38:10 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; practica4           ;
 +-------------------+---------------------+
@@ -77,7 +77,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 198208554464573.170930551510948        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 198208554464573.171012469013052        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -94,11 +94,25 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 4799 MB             ; 00:00:18                           ;
-; Fitter               ; 00:00:06     ; 1.0                     ; 5639 MB             ; 00:00:08                           ;
+; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 4786 MB             ; 00:00:19                           ;
+; Fitter               ; 00:00:06     ; 1.0                     ; 5639 MB             ; 00:00:10                           ;
 ; Assembler            ; 00:00:02     ; 1.0                     ; 4677 MB             ; 00:00:02                           ;
-; Timing Analyzer      ; 00:00:02     ; 1.0                     ; 4814 MB             ; 00:00:02                           ;
-; Total                ; 00:00:18     ; --                      ; --                  ; 00:00:30                           ;
+; Timing Analyzer      ; 00:00:02     ; 1.0                     ; 4813 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4623 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4634 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4623 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4634 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4623 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4634 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4623 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4634 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4623 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4634 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4623 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4634 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4623 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4634 MB             ; 00:00:01                           ;
+; Total                ; 00:00:25     ; --                      ; --                  ; 00:00:39                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -111,6 +125,20 @@ refer to the applicable agreement for further details.
 ; Fitter               ; DESKTOP-951G639  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Assembler            ; DESKTOP-951G639  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; DESKTOP-951G639  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-951G639  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-951G639  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-951G639  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-951G639  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-951G639  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-951G639  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-951G639  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-951G639  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-951G639  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-951G639  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-951G639  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-951G639  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-951G639  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-951G639  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -121,6 +149,20 @@ quartus_map --read_settings_files=on --write_settings_files=off practica4 -c pra
 quartus_fit --read_settings_files=off --write_settings_files=off practica4 -c practica4
 quartus_asm --read_settings_files=off --write_settings_files=off practica4 -c practica4
 quartus_sta practica4 -c practica4
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off practica4 -c practica4 --vector_source=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/Waveform.vwf --testbench_file=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/simulation/qsim/Waveform.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/simulation/qsim/ practica4 -c practica4
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off practica4 -c practica4 --vector_source=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/Waveform.vwf --testbench_file=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/simulation/qsim/Waveform.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/simulation/qsim/ practica4 -c practica4
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off practica4 -c practica4 --vector_source=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/Waveform.vwf --testbench_file=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/simulation/qsim/Waveform.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/simulation/qsim/ practica4 -c practica4
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off practica4 -c practica4 --vector_source=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/Waveform.vwf --testbench_file=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/simulation/qsim/Waveform.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/simulation/qsim/ practica4 -c practica4
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off practica4 -c practica4 --vector_source=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/Waveform.vwf --testbench_file=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/simulation/qsim/Waveform.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/simulation/qsim/ practica4 -c practica4
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off practica4 -c practica4 --vector_source=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/Waveform.vwf --testbench_file=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/simulation/qsim/Waveform.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/simulation/qsim/ practica4 -c practica4
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off practica4 -c practica4 --vector_source=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/Waveform.vwf --testbench_file=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/simulation/qsim/Waveform.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/anton/Documents/UNAM/8/OyAC/Practicas/P4/simulation/qsim/ practica4 -c practica4
 
 
 

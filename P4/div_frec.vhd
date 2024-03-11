@@ -22,6 +22,6 @@ begin
 			end if;
 		end if;
 		
-		div_clk <= cuenta(24);
+		div_clk <= cuenta(1);
 	end process;
 end bhv;

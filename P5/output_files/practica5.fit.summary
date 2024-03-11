@@ -1,12 +1,12 @@
-Fitter Status : Successful - Fri Mar 08 09:02:48 2024
+Fitter Status : Successful - Sun Mar 10 21:34:55 2024
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : practica5
 Top-level Entity Name : practica5
 Family : MAX 10
 Device : 10M50DAF484C7G
 Timing Models : Final
-Total logic elements : 69 / 49,760 ( < 1 % )
-    Total combinational functions : 69 / 49,760 ( < 1 % )
+Total logic elements : 68 / 49,760 ( < 1 % )
+    Total combinational functions : 68 / 49,760 ( < 1 % )
     Dedicated logic registers : 31 / 49,760 ( < 1 % )
 Total registers : 31
 Total pins : 13 / 360 ( 4 % )

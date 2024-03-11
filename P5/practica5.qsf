@@ -76,3 +76,4 @@ set_location_assignment PIN_A10 -to Salidas[2]
 set_location_assignment PIN_A9 -to Salidas[1]
 set_location_assignment PIN_A8 -to Salidas[0]
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf

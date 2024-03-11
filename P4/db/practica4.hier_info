@@ -58,7 +58,7 @@ reloj => cuenta[24].CLK
 reloj => cuenta[25].CLK
 reloj => cuenta[26].CLK
 reloj => cuenta[27].CLK
-div_clk <= cuenta[24].DB_MAX_OUTPUT_PORT_TYPE
+div_clk <= cuenta[1].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |practica4|mux2_3:inst7
